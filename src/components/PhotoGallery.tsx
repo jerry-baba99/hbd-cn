@@ -8,8 +8,8 @@ import { motion, AnimatePresence } from "motion/react";
 import { Camera, ArrowRight, RotateCw, Heart } from "lucide-react";
 
 // Use direct string paths for generated assets to satisfy TypeScript
-const rosePhoto = "/assets/1.jpg";
-const glassesPhoto = "/assets/2.jpg";
+const rosePhoto = "/1.jpg";
+const glassesPhoto = "/2.jpg";
 
 interface PhotoGalleryProps {
   onNext: () => void;
@@ -22,7 +22,7 @@ export default function PhotoGallery({ onNext }: PhotoGalleryProps) {
       id: 2,
       src: glassesPhoto,
       caption: "That Precious Sparkle ✨",
-      date: "August 2025",
+      date: "Oct 2025",
       note: "Whenever I see you in those cute glasses, my heart does a little jump. You have this incredibly adorable, intelligent, and warm aura that just brightens my whole day. Please keep smiling like this forever! 🤓💖",
       rotated: -3,
     },
@@ -30,7 +30,7 @@ export default function PhotoGallery({ onNext }: PhotoGalleryProps) {
       id: 1,
       src: rosePhoto,
       caption: "A Rose For My Rose 🌹",
-      date: "July 2025",
+      date: "March 2026",
       note: "No rose in this world can match your elegance and warmth. Holding these flowers, you looked like a living painting, a pure angel who spreads kindness wherever she goes. Your heart is pure gold, Madam Jii! 🌸💕",
       rotated: 4,
     },
@@ -186,7 +186,7 @@ export default function PhotoGallery({ onNext }: PhotoGalleryProps) {
                           {card.caption}
                         </h3>
                         <p className="font-cute text-[10px] md:text-xs text-pink-700/60 mt-1 flex items-center justify-center gap-1">
-                          <RotateCw className="w-3.5 h-3.5" /> Click to read secret letter
+                          <RotateCw className="w-3.5 h-3.5" /> 
                         </p>
                       </div>
                     </div>
