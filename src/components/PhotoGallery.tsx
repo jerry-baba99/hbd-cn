@@ -8,8 +8,8 @@ import { motion, AnimatePresence } from "motion/react";
 import { Camera, ArrowRight, RotateCw, Heart } from "lucide-react";
 
 // Use direct string paths for generated assets to satisfy TypeScript
-const rosePhoto = "/src/assets/1.jpg";
-const glassesPhoto = "/src/assets/2.jpg";
+const rosePhoto = "/assets/1.jpg";
+const glassesPhoto = "/assets/2.jpg";
 
 interface PhotoGalleryProps {
   onNext: () => void;
